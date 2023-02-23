@@ -26,6 +26,6 @@ public class HeatIndexDisplay implements Observer,DisplayElement{
     }
 
     public void display() {
-        System.out.println("Heat index is " + heatIndex);
+        System.out.println("Heat index is " + this.heatIndex);
     }
 }

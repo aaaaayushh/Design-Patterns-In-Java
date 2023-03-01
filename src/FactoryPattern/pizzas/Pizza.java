@@ -1,4 +1,4 @@
-package FactoryPattern;
+package FactoryPattern.pizzas;
 
 import java.util.ArrayList;
 

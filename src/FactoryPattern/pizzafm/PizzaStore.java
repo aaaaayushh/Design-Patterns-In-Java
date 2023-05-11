@@ -1,7 +1,7 @@
 package FactoryPattern.pizzafm;
 
 public abstract class PizzaStore{
-    abstract Pizza createPizza(String item);
+        abstract Pizza createPizza(String item);
 
     public Pizza orderPizza(String type){
         Pizza pizza = createPizza(type);
